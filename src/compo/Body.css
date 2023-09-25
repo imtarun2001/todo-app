@@ -1,0 +1,163 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Body {
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgb(177, 177, 177) 0%, rgb(188, 193, 184) 80%);
+    width: 500px;
+    min-height: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgb(225, 50, 50);
+}
+
+
+.Title {
+    border: none;
+    width: 99.99%;
+    height: 33px;
+    font-size: larger;
+    color: rgb(95, 11, 65);
+    border-radius: 4px;
+    font-family: 'Croissant One', cursive;
+    font-weight: bolder;
+    margin: auto;
+    background: linear-gradient(0deg, rgb(157, 254, 254) 0%, rgb(57, 182, 249) 100%);
+    box-shadow: 0px 0px 15px rgb(63, 51, 63);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.Form {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.InputBar {
+    width: 94%;
+    padding: 4px 6px;
+    margin: 0px auto;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.SaveButton {
+    background-color: rgb(255, 0, 255);
+    border: none;
+    margin-left: 15px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.SaveButton:hover {
+    background-color: rgb(0, 4, 255);
+    border: none;
+}
+
+
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 75.2%;
+}
+
+.LiButton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 25, 25);
+    padding: 2px 3px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.LiButton:hover {
+    background-color: rgb(161, 253, 3);
+}
+
+.LiButton:active {
+    background-color: rgb(161, 253, 3);
+}
+
+.LiButton:visited {
+    background-color: rgb(161, 253, 3);
+}
+
+.EditInput {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    padding: 2px 3px;
+    margin-left: 4px;
+    width: 98%;
+}
+
+.Complete {
+    background-color: rgb(0, 0, 0);
+    padding-left: 5px;
+    border-radius: 2px;
+    color: rgb(253, 253, 253);
+    width: 98%;
+    position: relative;
+    margin-left: 4px;
+    padding: 4px 2px;
+    text-decoration: line-through;
+    font-family: 'Croissant One', cursive;
+}
+
+.Default {
+    background-color: rgb(0, 0, 0);
+    padding-left: 5px;
+    border-radius: 2px;
+    color:rgb(231, 240, 241);
+    padding: 4px 2px;
+    position: relative;
+    margin-left: 4px;
+    margin: 4px;
+    font-family: 'Croissant One', cursive;
+}
+
+.Hide {
+    display: none;
+}
+
+.Show {
+    display: block;
+}
+
+.subha{
+    height: 300px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .tarun{
+    font-family: 'Croissant One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+  }
